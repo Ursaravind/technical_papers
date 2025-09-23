@@ -29,11 +29,8 @@ console.log("End"); // Synchronous
 
 Output: `Start`, `End`, `Async`.
 
-## 5. RajKishor -- OnLeave
 
-This appears unrelated to JavaScript. Please provide additional context if needed.
-
-## 6. Closures in JavaScript
+## 5. Closures in JavaScript
 
 A closure is a function that retains access to its lexical scope’s variables after the outer function finishes. Closures enable data encapsulation and state persistence.
 
@@ -49,11 +46,11 @@ console.log(counter()); // 0
 console.log(counter()); // 1
 ```
 
-## 7. Just-In-Time Compilation in JavaScript
+## 6. Just-In-Time Compilation in JavaScript
 
 Just-In-Time (JIT) compilation optimizes JavaScript by interpreting code initially and compiling frequently executed code into machine code during runtime. This balances speed and memory, improving performance over pure interpretation.
 
-## 8. Types of Functions in JavaScript
+## 7. Types of Functions in JavaScript
 
 JavaScript supports:
 
@@ -83,7 +80,7 @@ JavaScript supports:
   async function fetchData() { return await fetch("url"); }
   ```
 
-## 9. Promise.all() Method in JavaScript
+## 8. Promise.all() Method in JavaScript
 
 `Promise.all()` takes an iterable of promises and returns a promise that resolves when all input promises resolve, or rejects if any fail. It enables parallel asynchronous tasks.
 
